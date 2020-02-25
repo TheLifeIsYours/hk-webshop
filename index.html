@@ -16,8 +16,38 @@
                 <div id="webshop-controls">
                     <div id="webshop-search">
                         <div id="search-title">Search products</div>
-                        <input name="search-query" type="text" />
+                        <input name="search-query" type="text" placeholder="Search..." />
                         <input name="search-submit" type="button" value="search" />
+                    </div>
+                    <div id="webshoop-insert">
+                        <form id="webshop-insert-form">
+                            <div id="webshop-form-name">
+                                <span class="form-title">Name: </span>
+                                <input type="text" name="name" placeholder="Product name..." />
+                            </div>
+                            
+                            <div id="webshop-form-amount">
+                                <span class="form-title">Amount: </span>
+                                <input type="number" name="amount" value="1" />
+                            </div>
+                            
+                            <div id="webshop-form-price">
+                                <span class="form-title">Price: </span>
+                                <input type="number" name="price" value="10" />
+                            </div>
+
+                            <div id="webshop-form-description">
+                                <div class="form-title">Description: </div>
+                                <textarea name="description" placeholder="Product description..."></textarea>
+                            </div>
+
+                            <div id="webshop-form-image">
+                                <span class="form-title">Image: </span>
+                                <input type="file" name="image" />
+                            </div>
+
+                            <input type="submit">
+                        </form>
                     </div>
                 </div>
                 <div id="webshop-display">
